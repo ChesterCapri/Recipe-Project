@@ -1,0 +1,35 @@
+body {
+    margin: 0;
+    padding: 0;
+    flex: 1;
+    background-color: hsl(30, 54%, 90%);
+    height: 100vh;
+}
+
+.background {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.mainBody {
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 500px;
+    padding: 20px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    
+    
+}
+
+img {
+    height: 250px;
+    width: 500px;
+    border-radius: 15px;
+    margin-bottom: 30px;
+}
