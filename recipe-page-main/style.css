@@ -1,9 +1,23 @@
+
+@font-face {
+    font-family: Young-serif;
+    src: url(assets/fonts/young-serif/YoungSerif-Regular.ttf);
+}
+
+@font-face {
+    font-family: Outfit;
+    src: url(assets/fonts/outfit/Outfit-VariableFont_wght.ttf);
+}
+
+
+
 body {
     margin: 0;
     padding: 0;
     flex: 1;
     background-color: hsl(30, 54%, 90%);
     height: 100vh;
+    box-sizing: border-box;
 }
 
 .background {
@@ -32,4 +46,54 @@ img {
     width: 500px;
     border-radius: 15px;
     margin-bottom: 30px;
+}
+
+.title {
+    font-family: Young-Serif;
+    font-weight: 400;
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+
+.description {
+    font-family: Outfit;
+    color: hsl(24, 5%, 18%);
+    font-size: 14px;
+    margin-bottom: 30px;
+    font-weight: 300;
+}
+
+.prepTime {
+    font-family: Outfit;
+    background-color: hsl(330, 100%, 98%);
+    padding: 18px;
+    border-radius: 15px;
+    
+}
+
+.prepHead {
+    color: hsl(332, 51%, 32%);
+    font-weight: 600;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.prepTime ul {
+    padding-left: 0 ;
+    margin: 0;
+    font-size: 14px;
+    padding-right: 30px;
+    list-style-position: inside;
+
+}
+
+.prepTime strong {
+    padding-left: 24px;
+    font-weight: 600;
+   
+}
+
+.prepTime li {
+    margin-bottom: 4px;
+    font-weight: 300;
 }
